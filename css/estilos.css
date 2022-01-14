@@ -180,13 +180,13 @@ footer .fa-whatsapp {
   border-radius: 20px;
 }
 
-.botoncv{
+.botoncv {
   color: white;
   background-color: #e20000;
   border-radius: 20px;
 }
 
-.botoncv:hover{
+.botoncv:hover {
   background-color: #370a6d;
   color: white;
   border-radius: 20px;
@@ -311,10 +311,20 @@ footer .fa-whatsapp {
     width: auto !important;
   }
 
+  .espacio-mobile {
+    margin-top: 70px;
+  }
+
+  #idiomas .fas {
+    font-size: 70px;
+  }
+
   #contacto footer,
   #contacto footer a,
   #sobre-mi footer,
-  #sobre-mi footer a {
+  #sobre-mi footer a,
+  #inicio footer,
+  #inicio footer a {
     color: #e20000 !important;
   }
 }
