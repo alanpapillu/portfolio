@@ -127,7 +127,9 @@ nav .navbar-toggler {
 }
 
 #proyectos footer,
-#proyectos footer a {
+#proyectos footer a,
+#sobre-mi footer,
+#sobre-mi footer a {
   color: #ff0909;
 }
 
@@ -162,7 +164,8 @@ footer .fa-whatsapp {
   color: white;
 }
 
-#proyectos .btn-rojo {
+#proyectos .btn-rojo,
+#sobre-mi .btn-rojo {
   color: white;
   background-color: #e20000;
   border-radius: 20px;
@@ -170,7 +173,20 @@ footer .fa-whatsapp {
   margin-left: 10px;
 }
 
-.btn-rojo:hover {
+#proyectos .btn-rojo:hover,
+#sobre-mi .btn-rojo:hover {
+  background-color: #370a6d;
+  color: white;
+  border-radius: 20px;
+}
+
+.botoncv{
+  color: white;
+  background-color: #e20000;
+  border-radius: 20px;
+}
+
+.botoncv:hover{
   background-color: #370a6d;
   color: white;
   border-radius: 20px;
@@ -203,6 +219,79 @@ footer .fa-whatsapp {
   border-top-right-radius: 10px;
 }
 
+.imagen-perfil {
+  border-radius: 150px;
+  border: 10px solid white;
+}
+#stack-tecnologico h3 {
+  font-size: 12px;
+}
+
+#stack-tecnologico .titulo {
+  color: white;
+}
+
+#sobre-mi .card {
+  height: 180px;
+}
+
+#experiencia h2,
+#experiencia h4 {
+  color: #370a6d;
+}
+#experiencia h2,
+#formacion h2 {
+  font-weight: 400;
+  font-size: 24px;
+}
+#formacion h2,
+#formacion h4 {
+  color: #e20000;
+}
+#experiencia h3,
+#formacion h3 {
+  color: #6a6a6a;
+  font-size: 18px;
+  font-weight: 600;
+}
+#experiencia h4,
+#formacion h4 {
+  font-size: 20px;
+}
+#experiencia h5,
+#formacion h5 {
+  color: #6a6a6a;
+  font-size: 15px;
+}
+
+#idiomas .card {
+  background-color: #370a6d;
+  border-radius: 15px;
+  padding: 40px 0;
+}
+
+#idiomas .card-idioma {
+  border-radius: 15px;
+}
+
+#idiomas {
+  background-color: #eee;
+}
+#idiomas h2 {
+  font-size: 16px;
+  font-weight: 600px;
+}
+#idiomas ul {
+  padding: 0px;
+  font-size: 15px;
+  color: #282828;
+  list-style-type: none;
+}
+#idiomas .fas {
+  font-size: 85px;
+  color: white;
+}
+
 @media (max-width: 750px) {
   #contacto,
   #inicio {
@@ -223,7 +312,9 @@ footer .fa-whatsapp {
   }
 
   #contacto footer,
-  #contacto footer a {
+  #contacto footer a,
+  #sobre-mi footer,
+  #sobre-mi footer a {
     color: #e20000 !important;
   }
 }
