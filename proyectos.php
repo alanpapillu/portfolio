@@ -1,3 +1,10 @@
+<?php
+
+$pg= "proyectos";
+
+?>
+
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -13,33 +20,7 @@
 
 </head>
 <body id="proyectos">
-    <header class="container">
-    <nav class="navbar navbar-expand-md  ">
-        <div class="container-fluid px-0">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-                <i class="fas fa-bars"></i>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav mb-2 mt-2">
-            <li class="nav-item ">
-                <a class="nav-link py-1 px-4" href="index.html">Inicio</a>
-            </li>
-            <li class="nav-item ">
-                <a class="nav-link py-1 px-4" href="sobre-mi.html">Sobre Mi</a>
-            </li>
-            <li class="nav-item ">
-                <a class="nav-link active py-1 px-4" href="proyectos.html">Proyectos</a>
-            </li>
-            <li class="nav-item ">
-                <a class="nav-link  py-1 px-4 " href="contacto.html">Contacto</a>
-            </li>
-            </ul>
-            <div style="margin-left: 350px;"></div>
-            <div><a href="" class="btn botoncv">Descargar mi CV<i class="fas fa-download"></i></a></div>
-        </div>
-        </div>
-    </nav>
-    </header>
+    <?php include_once "header.php"; ?>
     <main class="container">
         <div class="row">
             <div class="col-12 mt-3 mb-5">
