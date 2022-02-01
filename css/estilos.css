@@ -39,7 +39,8 @@ textarea {
 }
 
 #contacto,
-#inicio {
+#inicio,
+#gracias {
   background-image: url("../images/fondo-contacto.png");
   background-size: 100%;
   background-repeat: no-repeat;
